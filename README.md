@@ -91,7 +91,7 @@
 
 * 代码的目录组织结构
 
-* 代码规范：[bootstrap前端代码规范](http://codeguide.bootcss.com/) [百度前端代码规范](https://github.com/ecomfe/spec)[Airbnb JavaScript Style Guide](https://github.com/sivan/javascript-style-guide/blob/master/es5/README.md)
+* 代码规范：[bootstrap前端代码规范](http://codeguide.bootcss.com/) [百度前端代码规范](https://github.com/ecomfe/spec) [Airbnb JavaScript Style Guide](https://github.com/sivan/javascript-style-guide/blob/master/es5/README.md)
 
 * 分工，这个是重点
 
