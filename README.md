@@ -30,8 +30,8 @@ D3中文网
 
 >
 1. D3数据可视化的发展趋势可视化呈现
-2. 数据新闻区域（类似于36氪，36大数据方面的建立简单的新闻区域，比如介绍一些大数据动向方面的东西，可以开放给大家投稿功能）
-3. D3做的一些应用统计信息模块等，例如做一些报告分析区域（友盟指数），或者做一些简单的类似talkingdata的分析功能，做这部分一部分是为了宣传我们这边，另一方面是调动大家的积极性，去做一些创新
+2. 数据新闻区域（类似于36氪、36大数据方面的简单新闻区域。例如介绍一些大数据动向方面的东西，可以开放投稿功能等）
+3. D3做的一些应用统计信息模块等。例如做一些报告分析区域（友盟指数），或者做一些简单的类似talkingdata的分析功能，做这部分一部分是为了宣传我们这边，另一方面是调动大家的积极性，去做一些创新
 
 
 
@@ -53,14 +53,14 @@ D3中文网
 
 ## 产品设计
 
-*  建议定几个主要设计规划人员，每天建立个讨论组，讨论一下idea，然后用axure 画出原型后等大家评审通过后再去细化出高保真原型。然后就是前端的一些方面工作
+*  建议定几个主要设计规划人员，每天建立个讨论组，讨论一下idea，然后用axure 画出原型后等大家评审通过后再去细化出高保真原型。
  
 ## 前端
 
-* bootstrap ui框架（如果是自己写套ui的化规范还是很重要的   不过如果是自己写，建议换是分核心模块跟业务模块，比如核心模块用ui开都，业务模块定制的以业务模块开头）
+* bootstrap框架（如果是自己写套ui的话规范还是很重要的   不过如果是自己写，建议换是分核心模块跟业务模块，比如核心模块用ui开头，业务模块定制的以业务模块开头）
 * 模块化的js建议requirejs
-* 至于js框架如果是要短时间内建站的化，可以用 jquery做暂时性的，如果有必要的话，我的建议是angularjs或者react这两个
-* React、flux/reflux、、nodejs、
+* 至于js框架如果是要短时间内建站的话，可以用 jquery做暂时性的，如果有必要的话，建议angularjs或react这两个
+* React、flux/reflux、nodejs、
 * 构建工具grunt/gulp/webpack
 
 ## 后端
@@ -79,8 +79,8 @@ D3中文网
 * 方案：
 
 >
-1. spring +spring mvc+mybatis+ehcache
-2. nodejs + express + angularjs +mongodb
+1. spring +　spring mvc+mybatis　+　ehcache
+2. nodejs + express + angularjs +　mongodb
 3. django
 4. jfinal或者play
 5. wordpress
@@ -90,7 +90,7 @@ D3中文网
 
 * github开源协作
 
-* 代码的目录组织结构?
+* 代码的目录组织结构
 
 * 代码规范：[bootstrap前端代码规范](http://codeguide.bootcss.com/) [百度前端代码规范](https://github.com/ecomfe/spec)[Airbnb JavaScript Style Guide](https://github.com/sivan/javascript-style-guide/blob/master/es5/README.md)
 
