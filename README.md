@@ -85,6 +85,13 @@
 5. wordpress
 
 
+## API测试
+
+* [mocha](https://mochajs.org/)
+* should, supertest等
+* [tape](https://medium.com/javascript-scene/why-i-use-tape-instead-of-mocha-so-should-you-6aa105d8eaf4) 供参考
+
+
 ## 协作方式
 
 * github开源协作
