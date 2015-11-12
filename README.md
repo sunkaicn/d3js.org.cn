@@ -156,6 +156,7 @@
 * [大数据魔镜官网](http://www.moojnn.com/?ref=sogou1)
 
 * 数据可视化
+
 >
 + [数据可视化的类型](http://www.datavizcatalogue.com/) 
 + [文本可视化案例集](http://textvis.lnu.se/) 
