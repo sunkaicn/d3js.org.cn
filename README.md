@@ -154,3 +154,12 @@
 * [七月算法](http://www.julyedu.com/)
 * [七月问答](http://ask.julyedu.com/)
 * [大数据魔镜官网](http://www.moojnn.com/?ref=sogou1)
+
+* 数据可视化
+
+>
++ [数据可视化的类型](http://www.datavizcatalogue.com/) 
++ [文本可视化案例集](http://textvis.lnu.se/) 
++ [时间型数据可视化案例集](http://survey.timeviz.net/) 
++ [树的可视化案例集](http://vcg.informatik.uni-rostock.de/~hs162/treeposter/poster.html) 
++ [弦的可视化案例集](http://www.datavizcatalogue.com/) 
