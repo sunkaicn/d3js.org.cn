@@ -17,13 +17,12 @@ var logger = require('morgan');
 
 
 var app=express();
- app.set("port",80);//for the time being
+ app.set("port",8080);//for the time being
  app.use(favicon(path.join(__dirname,"public/favicon.ico")));
  app.use(logger('dev'));
  app.use(methodOverrid());
  app.use(bodyParser.json());
  app.use(bodyParser.urlencoded({extended:true}));
- app.use(cookiesParser(config.cookieSecret));
  app.use(compress());
  app.use('/',route);
  app.use("/public",express.static(path.join(__dirname,"public")));

@@ -6,10 +6,12 @@
 exports.userRequired=function(req,res,next){
     Promise.resolve().then(function(){
         //TODO；
+        next();
     })
 }
 exports.adminRequired=function(req,res,next){
     Promise.resolve().then(function(){
         //TODO；
+        next();
     })
 }
