@@ -17,8 +17,7 @@ var logger = require('morgan');
 
 
 var app=express();
- //TODO:
- app.set("port",);
+ app.set("port",80);//for the time being
  app.use(favicon(path.join(__dirname,"public/favicon.ico")));
  app.use(logger('dev'));
  app.use(methodOverrid());
