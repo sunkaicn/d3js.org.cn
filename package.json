@@ -1,5 +1,5 @@
 ﻿{
-"name":"CassttePlayer",
+"name":"d3js",
 "private":true,
  "version":"0.0.1",
  "dependencies":{
@@ -12,5 +12,8 @@
   "serve-favicon":"^2.0.1",
   "errorhandler":"^1.1.1",
   "morgan":"*"
- }
+ },
+ "scripts": {
+    "start": "node app"
+  }
 }
