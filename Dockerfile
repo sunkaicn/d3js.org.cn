@@ -3,7 +3,7 @@ FROM node:0.10
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
-RUN npm install -g mean-cli bower gulp
+# RUN npm install -g mean-cli bower gulp
 
 RUN	groupadd -r node \
 &&	useradd -r -m -g node node
