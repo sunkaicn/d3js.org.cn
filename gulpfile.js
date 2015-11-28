@@ -50,6 +50,12 @@ gulp.task('build', function (done) {
 	runSequence('env:dev', ['uglify', 'cssmin'], done);
 });
 
+
+// Run the project tests
+gulp.task('test', function (done) {
+	runSequence('env:test', done);
+});
+
 gulp.task('default', function (done) {
 	runSequence('env:dev', done);
 });
