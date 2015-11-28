@@ -7,7 +7,7 @@ RUN	groupadd -r node \
 &&	useradd -r -m -g node node
 
 COPY . /usr/src/app/
-#RUN rm -rf /usr/src/app/node_modules
+RUN rm -rf /usr/src/app/node_modules
 RUN chown -R node:node /usr/src/app
 
 USER node
