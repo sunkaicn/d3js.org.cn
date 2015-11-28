@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server",
     "test": "gulp test",
-    "postinstall": "bower install --config.interactive=false"
+    "postinstall": "bower install --config.interactive=false;gulp"
   },
   "repository": {
     "type": "git",
