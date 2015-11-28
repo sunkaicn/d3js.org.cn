@@ -4,11 +4,7 @@ var defaultEnvConfig = require('./default');
 
 module.exports = {
   db: {
-        uri: 'mongodb://' + process.env.D3_USERNAME 
-      + ':' + process.env.D3_PASSWORD 
-      + '@' + (process.env.D3_PORT_27017_TCP_ADDR || 'localhost') 
-      + ':' + process.env.D3_PORT_27017_TCP_PORT 
-      + '/mean-dev',
+    uri: 'mongodb://' + (process.env.DB_PORT_27017_TCP_ADDR || 'localhost') + '/mean-dev',
     options: {
       user: '',
       pass: ''
