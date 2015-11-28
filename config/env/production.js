@@ -8,9 +8,7 @@ module.exports = {
   },
   port: process.env.PORT || 8443,
   db: {
-    uri: 'mongodb://' 
-      + (process.env.DB_USERNAME ? process.env.DB_USERNAME + ':' + process.env.DB_PASSWORD + '@' : '')
-      + (process.env.DB_PORT_27017_TCP_ADDR || 'localhost') + '/mean',
+    uri: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://' + (process.env.DB_PORT_27017_TCP_ADDR || 'localhost') + '/mean',
     options: {
       user: '',
       pass: ''

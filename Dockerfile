@@ -7,14 +7,14 @@ RUN	groupadd -r node \
 &&	useradd -r -m -g node node
 
 COPY . /usr/src/app/
-RUN rm -rf /usr/src/app/node_modules
+#RUN rm -rf /usr/src/app/node_modules
 RUN chown -R node:node /usr/src/app
 
 USER node
 RUN touch /home/node/.d3cn
 RUN npm install 
 ENV PORT 3000  
-ENV DB_PORT_27017_TCP_ADDR db
+#ENV DB_PORT_27017_TCP_ADDR db
 CMD [ "npm", "start" ]
 EXPOSE 3000
 
