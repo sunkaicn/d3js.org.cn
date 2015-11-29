@@ -29,7 +29,7 @@ gulp.task('uglify', function () {
 		);
 
 	return gulp.src(assets)
-		.pipe(plugins.ngAnnotate())
+		//.pipe(plugins.ngAnnotate())
 		.pipe(plugins.uglify({
 			mangle: false
 		}))
